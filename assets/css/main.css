@@ -370,7 +370,7 @@ ul {
     color: rgb(136, 146, 155);
 }
 
-.commandClass {
+.year {
     color: black;
 }
 
@@ -434,10 +434,7 @@ ul {
     color: rgb(41, 74, 97);
 }
 
-@media
-/*(min-width:290px) and*/
-
-(max-width:1090px) {
+@media (max-width: 1090px) {
     .pieGraphContainer {
         flex-flow: column;
     }
@@ -453,10 +450,13 @@ ul {
     .lineGraphContainer {
         align-items: unset;
     }
-    .dOm {
-        display: none;
-    }
     .yTitle {
         margin-right: 10px;
+    }
+}
+
+@media (max-width:700px) {
+    .dOm {
+        display: none;
     }
 }
