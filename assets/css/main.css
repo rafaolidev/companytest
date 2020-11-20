@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: rgb(238, 238, 238);
+}
+
+.menuContainer {
+    font-size: 15px;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(64, 169, 158);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.currentUser {
+    margin-left: 20px;
+}
+
+.functionsContainer {
+    margin-right: 20px;
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.settings {
+    display: flex;
+    width: 90px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logout {
+    display: flex;
+    width: 90px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.settings img {
+    width: 20px;
+    height: 20px;
+}
+
+.logout img {
+    width: 20px;
+    height: 20px;
+}
+
+.settings, .logout {
+    text-decoration: none;
+    color: white;
+}
+
+.infoContainer {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1220px;
+}
+
+.info {
+    width: 235px;
+    padding: 0px 0px 10px 0px;
+}
+
+.infoTop1, .infoTop2, .infoTop3, .infoTop4, .infoTop5 {
+    display: flex;
+    color: white;
+    width: 235px;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 30px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.infoTop1 {
+    background-color: rgb(98, 125, 138);
+}
+
+.infoTop2 {
+    background-color: rgb(154, 47, 173);
+}
+
+.infoTop3 {
+    background-color: rgb(222, 71, 64);
+}
+
+.infoTop4 {
+    background-color: rgb(140, 193, 82);
+}
+
+.infoTop5 {
+    background-color: rgb(31, 188, 211);
+}
+
+.infoIcon {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.infoRight {
+    margin-right: 10px;
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: lighter;
+}
+
+.infoRight img {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+
+.infoText {
+    font-size: 20px;
+}
+
+.infoBottom1, .infoBottom2, .infoBottom3, .infoBottom4, .infoBottom5 {
+    display: flex;
+    justify-content: flex-end;
+    width: 235px;
+    color: white;
+    font-weight: lighter;
+    font-size: 10px;
+    height: 20px;
+    border-radius: 0px 0px 5px 5px;
+    align-items: center;
+}
+
+.infoBottom1 {
+    background-color: rgb(92, 118, 130);
+}
+
+.infoBottom2 {
+    background-color: rgb(145, 43, 163);
+}
+
+.infoBottom3 {
+    background-color: rgb(209, 66, 60);
+}
+
+.infoBottom4 {
+    background-color: rgb(132, 182, 78);
+}
+
+.infoBottom5 {
+    background-color: rgb(30, 177, 198);
+}
+
+.infoTextBottom, .date {
+    margin-right: 10px;
+}
+
+.bottomContent, .graphContainer {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1220px;
+}
+
+.pieGraphContainer, .lineGraphContainer {
+    width: 49%;
+    min-width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+}
+
+.graphTitle, .lineGraphTitle {
+    width: 50px;
+    height: 212px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphTitle {
+    background-color: rgb(98, 125, 138);
+}
+
+.lineGraphTitle {
+    background-color: rgb(31, 188, 211);
+}
+
+.title, .lineTitle {
+    font-size: 13px;
+    display: flex;
+    height: 211px;
+    justify-content: center;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+.piechart {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: conic-gradient( rgb(140, 193, 82) 290deg, rgb(253, 98, 47) 0);
+}
+
+.index {
+    display: flex;
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7 {
+    margin-right: 10px;
+    width: 20px;
+    height: 15px;
+}
+
+.box1 {
+    background-color: rgb(140, 193, 82);
+}
+
+.box2 {
+    background-color: rgb(252, 88, 47);
+}
+
+.box3 {
+    background-color: rgb(30, 188, 211);
+}
+
+.box4 {
+    background-color: rgb(155, 51, 174);
+}
+
+.box5 {
+    background-color: rgb(254, 233, 78);
+}
+
+.box6 {
+    background-color: rgb(20, 150, 136);
+}
+
+.box7 {
+    background-color: rgb(120, 85, 73);
+}
+
+.lineGraph {
+    color: rgb(115, 115, 112);
+    width: 90%;
+}
+
+.graphY {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 150px;
+}
+
+.yTitle {
+    display: flex;
+    justify-content: center;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+}
+
+.numberContainer {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 13px;
+}
+
+.numberLine {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.value {
+    margin-right: 10px;
+}
+
+.line, .line0 {
+    height: 1px;
+    background-color: rgb(235, 235, 235);
+    width: 90%;
+}
+
+.line0 {
+    background-color: rgb(213, 213, 213);
+    height: 3px;
+}
+
+.dOm {
+    writing-mode: tb-rl;
+    transform: rotate(240deg);
+    font-size: 13px;
+}
+
+.graphX {
+    margin-left: 60px;
+    font-size: xx-small;
+}
+
+ul {
+    line-height: 25px;
+}
+
+.bottomLeft {
+    width: 49%;
+    min-width: 290px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-bottom: 10px;
+}
+
+.bottomLeftTitle {
+    width: 100%;
+    background-color: rgb(150, 90, 176);
+    color: white;
+    font-size: 10px;
+    height: 33px;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.bottomLeftTitle span {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.commandsContainer {
+    width: 95%;
+    height: 75px;
+    border-bottom: 2px solid rgb(248, 248, 248);
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+}
+
+.commandsContainer img {
+    width: 40px;
+    height: 40px;
+    padding-right: 15px;
+}
+
+.commands {
+    color: rgb(136, 146, 155);
+}
+
+.commandClass {
+    color: black;
+}
+
+.lastApplied {
+    color: rgb(172, 172, 172);
+}
+
+.bottomRight {
+    width: 49%;
+    min-width: 290px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.bottomRightTitle {
+    width: 100%;
+    background-color: rgb(38, 49, 54);
+    color: white;
+    font-size: 10px;
+    height: 33px;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomRightTitle span {
+    margin: 0px 15px;
+    font-size: 12px;
+}
+
+.alertContainer {
+    height: 45px;
+    border-bottom: 2px solid rgb(248, 248, 248);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    color: rgb(136, 146, 155);
+    font-size: 12px;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+}
+
+.alert img {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+}
+
+.count {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(41, 74, 97);
+}
+
+@media
+/*(min-width:290px) and*/
+
+(max-width:1090px) {
+    .pieGraphContainer {
+        flex-flow: column;
+    }
+    .title, .lineTitle {
+        justify-content: center;
+        transform: rotate(-90deg);
+    }
+    .graphTitle, .lineGraphTitle {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .lineGraphContainer {
+        align-items: unset;
+    }
+    .dOm {
+        display: none;
+    }
+    .yTitle {
+        margin-right: 10px;
+    }
+}
